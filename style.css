@@ -66,10 +66,6 @@ header img:nth-child(1) {
   header .change2 {
     display: flex;
   }
-  /* #modal div {  
-    width: 100%;
-
-  } */
 }
 
 /* Productos */
@@ -130,7 +126,7 @@ header img:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
 }
 #modal .container__modal {
   background-color: white;
