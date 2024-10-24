@@ -17,8 +17,6 @@ body {
   background-color: black;
 }
 
-
-
 /* Header */
 header {
   width: 100%;
@@ -183,7 +181,7 @@ header img:nth-child(1) {
 #modal span {
   cursor: pointer;
   position: absolute;
-  top:3%;
+  top: 3%;
   right: 2%;
   padding: 0 4px;
   z-index: 10;
