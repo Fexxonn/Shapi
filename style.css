@@ -153,6 +153,7 @@ header img:nth-child(1) {
 #modal .container__modal--img img {
   width: 100%;
   height: 100%;
+  max-height: 300px;
   object-fit: contain;
 }
 
@@ -188,4 +189,20 @@ header img:nth-child(1) {
 }
 #modal span:hover {
   border: 2px solid black;
+}
+
+@media screen and (max-width: 500px) {
+  #modal .container__modal {
+
+    flex-direction: column;
+  }
+  #modal .container__modal--img img {
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  #modal h5 {
+    font-size: 3vmin;
+  }
 }
